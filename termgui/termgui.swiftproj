@@ -1,0 +1,24 @@
+<Project Sdk="SourceGear.Llama.Swift.Sdk/0.1.8">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- 
+        These nuget packages are Swift wrappers.  They are
+        a bit special, as they contain Swift-specific things
+        that are needed by the Llama Swift SDK for building.
+
+        The NETCore package wraps the .NET 5 targeting pack.
+        The other two wrap other nuget packages.
+    -->
+
+    <PackageReference Include="Llama.NETCore" Version="0.1.8" />
+    <PackageReference Include="Llama.NStack.Core" Version="0.1.8" />
+    <PackageReference Include="Llama.Terminal.Gui" Version="0.1.8" />
+  </ItemGroup>
+
+</Project>
+
