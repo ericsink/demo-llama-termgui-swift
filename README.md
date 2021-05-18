@@ -6,13 +6,14 @@ Llama is my exploratory project to compile "other languages"
 for .NET using LLVM.  It is at the "proof of concept"
 stage.  See my blog for more info:
 
-    https://ericsink.com/tocs/llama.html
+https://ericsink.com/tocs/llama.html
 
 Terminal.Gui (aka "gui.cs") is a "Console-based user interface toolkit for .NET applications.".  
 See its repo and nuget page for more info:
 
-    https://github.com/migueldeicaza/gui.cs
-    https://www.nuget.org/packages/Terminal.Gui
+https://github.com/migueldeicaza/gui.cs
+
+https://www.nuget.org/packages/Terminal.Gui
 
 ## Try it
 
