@@ -17,21 +17,28 @@ https://www.nuget.org/packages/Terminal.Gui
 
 ## Try it
 
-First, let me apologize to folks on a Mac, also known
-as "almost all Swift developers".  :-(
+First, let me apologize to folks on a Mac, which means
+"almost all Swift developers".  :-(
 
-All my development thus far has been on Windows.  In
-principle, everything here should be cross-platform,
-but I haven't tried it on Mac (or Linux) yet, so it
+All my recent development has been on Windows.  In
+principle, everything here should be cross-platform.
+Llama generally works on Windows, Mac, and Linux.
+But I haven't tried Llama Swift on Mac (or Linux) yet, so it
 probably doesn't work there.  I plan to fix this soon.
 
 Anyway, if you are on Windows and have Swift 5.4 installed,
-you should be able to just `cd` into the `termgui` directory
-and type `dotnet run`.  The necessary nuget packages for
+you should be able to just:
+
+```
+cd termgui
+dotnet run
+```
+
+The necessary nuget packages for
 this demo are in the `nupkgs` directory, which is configured
 using a nuget config file.
 
-You should get something like this:
+You should see something like this:
 
 ![Screenshot](/screenshot.png?raw=true "Screenshot")
 
